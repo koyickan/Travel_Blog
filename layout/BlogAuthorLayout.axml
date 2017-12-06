@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Santhosh George Kulangara\nBorn: December 25, 1971 (age 45),India\nProfession : Travel blogger\nOwner of travel Channel SAFARI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <ImageView
+        android:src="@drawable/image"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="0.0dp"
+        android:layout_marginBottom="0.0dp" />
+    <Button
+        android:text="Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+</LinearLayout>
